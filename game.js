@@ -8,8 +8,8 @@ let score = 0;
 let particles = [];  // ← グローバルに追加
 
 
-for (let row = 0; row < 3; row++) {
-  for (let col = 0; col < 4; col++) {
+for (let row = 0; row < 5; row++) {
+  for (let col = 0; col < 8; col++) {
     const isBonus = Math.random() < 0.2; // 20%の確率でボーナスに
     blocks.push({
       x: 60 * col + 20,
